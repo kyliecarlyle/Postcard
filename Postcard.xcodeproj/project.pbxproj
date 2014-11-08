@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B340B3DD1A0229DB0047D4A5 /* empire-mag-cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B340B3DC1A0229DB0047D4A5 /* empire-mag-cover.jpg */; };
 		B3BDCC0F19E9F9F60003540F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BDCC0E19E9F9F60003540F /* AppDelegate.swift */; };
 		B3BDCC1119E9F9F60003540F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BDCC1019E9F9F60003540F /* ViewController.swift */; };
 		B3BDCC1419E9F9F70003540F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3BDCC1219E9F9F70003540F /* Main.storyboard */; };
 		B3BDCC1619E9F9F70003540F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3BDCC1519E9F9F70003540F /* Images.xcassets */; };
 		B3BDCC1919E9F9F70003540F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3BDCC1719E9F9F70003540F /* LaunchScreen.xib */; };
 		B3BDCC2519E9F9F70003540F /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BDCC2419E9F9F70003540F /* PostcardTests.swift */; };
+		B3BDCC2F19F0E2EE0003540F /* SagradaFamilia.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B3BDCC2E19F0E2EE0003540F /* SagradaFamilia.jpeg */; };
+		B3BDCC3119F0E52D0003540F /* AlbertEinsteinStamp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B3BDCC3019F0E52D0003540F /* AlbertEinsteinStamp.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B340B3DC1A0229DB0047D4A5 /* empire-mag-cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "empire-mag-cover.jpg"; path = "../empire-mag-cover.jpg"; sourceTree = "<group>"; };
 		B3BDCC0919E9F9F60003540F /* Postcard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Postcard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3BDCC0D19E9F9F60003540F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3BDCC0E19E9F9F60003540F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +40,8 @@
 		B3BDCC1E19E9F9F70003540F /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3BDCC2319E9F9F70003540F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3BDCC2419E9F9F70003540F /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		B3BDCC2E19F0E2EE0003540F /* SagradaFamilia.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SagradaFamilia.jpeg; sourceTree = "<group>"; };
+		B3BDCC3019F0E52D0003540F /* AlbertEinsteinStamp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AlbertEinsteinStamp.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +96,9 @@
 		B3BDCC0C19E9F9F60003540F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B3BDCC3019F0E52D0003540F /* AlbertEinsteinStamp.jpg */,
+				B340B3DC1A0229DB0047D4A5 /* empire-mag-cover.jpg */,
+				B3BDCC2E19F0E2EE0003540F /* SagradaFamilia.jpeg */,
 				B3BDCC0D19E9F9F60003540F /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,6 +202,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3BDCC1419E9F9F70003540F /* Main.storyboard in Resources */,
+				B3BDCC2F19F0E2EE0003540F /* SagradaFamilia.jpeg in Resources */,
+				B3BDCC3119F0E52D0003540F /* AlbertEinsteinStamp.jpg in Resources */,
+				B340B3DD1A0229DB0047D4A5 /* empire-mag-cover.jpg in Resources */,
 				B3BDCC1919E9F9F70003540F /* LaunchScreen.xib in Resources */,
 				B3BDCC1619E9F9F70003540F /* Images.xcassets in Resources */,
 			);
@@ -407,6 +419,7 @@
 				B3BDCC2A19E9F9F70003540F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B3BDCC2B19E9F9F70003540F /* Build configuration list for PBXNativeTarget "PostcardTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +428,7 @@
 				B3BDCC2D19E9F9F70003540F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
